@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 600px;
+  margin: -100px auto 0; /* Mova o container 20 pixels para cima */
+}
+
+
+
+.input-group {
+  margin-bottom: 20px; /* Aumenta o espaço entre os grupos de entrada */
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px; /* Aumenta o preenchimento dos campos de entrada */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Aumenta o raio da borda dos campos de entrada */
+  font-size: 18px; /* Aumenta o tamanho do texto nos campos de entrada */
+}
+
+.button-group {
+  text-align: center;
+}
+
+.calc-button {
+  padding: 12px 24px; /* Aumenta o preenchimento dos botões */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Aumenta o raio da borda dos botões */
+  cursor: pointer;
+  font-size: 18px; /* Aumenta o tamanho do texto nos botões */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 16px; /* Aumenta o tamanho do texto das mensagens de erro */
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 30px; /* Aumenta o espaço abaixo do título */
+  font-size: 28px; /* Aumenta o tamanho do texto do título */
+  color: #333;
+}

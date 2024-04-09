@@ -1,0 +1,20 @@
+<div class="container">
+ <h1 class="page-title">Calcular expressão</h1>
+  <div class="input-group">
+    <input type="text" [disabled]="true" placeholder="-b+(4y-2)" class="form-input">
+  </div>
+  <div class="input-group">
+    <input type="number" [(ngModel)]="b" placeholder="Valor de b" required class="form-input">
+  </div>
+  <div class="input-group">
+    <input type="number" [(ngModel)]="y" placeholder="Valor de y" required class="form-input">
+  </div>
+<div class="input-group">
+    <input  type="text" [disabled]="true" [(ngModel)]="resultado" placeholder="Resultado" required class="form-input">
+  </div>
+  <div class="button-group">
+    <button (click)="calcular()" class="calc-button">Calcular</button>
+  </div>
+
+  
+</div>
